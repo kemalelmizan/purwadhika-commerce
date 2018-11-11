@@ -12,7 +12,6 @@ import {
   DropdownMenu,
   DropdownItem
 } from "reactstrap";
-import MyCarousel from "./Carousel";
 
 class Header extends Component {
   constructor(props) {
@@ -58,7 +57,6 @@ class Header extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-        <MyCarousel />
       </div>
     );
   }
