@@ -12,6 +12,7 @@ import {
   Row,
   Col
 } from "reactstrap";
+import ProductTable from "./ProductTable";
 import classnames from "classnames";
 
 export default class Example extends React.Component {
@@ -42,7 +43,7 @@ export default class Example extends React.Component {
                 this.toggle("1");
               }}
             >
-              Tab1
+              <ProductTable />
             </NavLink>
           </NavItem>
           <NavItem>
